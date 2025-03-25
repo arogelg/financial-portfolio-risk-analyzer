@@ -1,20 +1,13 @@
-# Use Node.js as base image
-FROM node:18-alpine
-
-# Set working directory
+# We first build the stage
+FROM node:16-alpine as build
 WORKDIR /app
-
-# Copy package.json first to leverage Docker caching
-COPY . .
-
-# Install dependencies
+COPY package*.json ./
 RUN npm install
-
-# Copy everything else
 COPY . .
+RUN npm run build
 
-# Expose port 3000 for React
-EXPOSE 3000
-
-# Start the React app
-CMD ["npm", "start"]
+# And in here we will do the production stage
+FROM nginx:stable-alpine
+COPY --from=build /app/build /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]

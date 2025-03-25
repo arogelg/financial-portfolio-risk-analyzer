@@ -1,34 +1,30 @@
-version: "3.8"
+version: '3.8'
 
 services:
+  db:
+    image: postgres:15
+    container_name: db
+    env_file:
+      - ./config/db.env
+    volumes:
+      - ./data/postgres-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
   backend:
-      build: ./backend
-      ports:
-        - "8000:8000"
-      volumes:
-        - ./backend/src:/app
-      env_file:
-        - config/backend.env
-      depends_on:
-        - db
-      command: >
-        sh -c "python src/init_db.py && uvicorn main:app --host 0.0.0.0 --port 8000 --reload"
+    build: ./backend
+    container_name: backend
+    env_file:
+      - ./config/backend.env
+    depends_on:
+      - db
+    ports:
+      - "8000:8000"
 
   frontend:
     build: ./frontend
-    ports:
-      - "3000:3000"
-    volumes:
-      - ./frontend/src:/app
+    container_name: frontend
     depends_on:
       - backend
-
-  db:
-    image: postgres:15
-    restart: always
     ports:
-      - "5432:5432"
-    volumes:
-      - ./data/postgres-data:/var/lib/postgresql/data
-    env_file:
-      - config/db.env
+      - "3000:80" 
