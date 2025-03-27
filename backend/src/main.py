@@ -36,7 +36,7 @@ Base.metadata.create_all(engine)
 # Fetch stock data and insert into the database
 def fetch_and_store_stock_data(symbol: str):
     stock = yf.Ticker(symbol)
-    stock_data = stock.history(period="30d")
+    stock_data = stock.history(period="6mo")
     
     # If no data is found, return an error
     if stock_data.empty:
