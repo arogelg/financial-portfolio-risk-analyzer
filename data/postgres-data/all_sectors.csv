@@ -1,0 +1,503 @@
+Ticker,Volatility,VaR (95%),Max Drawdown,Beta vs SPY,Risk Level,Latest Close,Sector,Company,Sub-Industry
+GOOGL,0.2902,-0.0303,-0.2214,1.249,High Risk,165.06,Communication Services,Alphabet Inc. (Class A),Interactive Media & Services
+GOOG,0.2864,-0.0293,-0.2228,1.2574,High Risk,167.14,Communication Services,Alphabet Inc. (Class C),Interactive Media & Services
+T,0.2116,-0.0181,-0.0857,-0.0699,Low Risk,27.65,Communication Services,AT&T,Integrated Telecommunication Services
+CHTR,0.3663,-0.0293,-0.1792,0.6851,Low Risk,384.77,Communication Services,Charter Communications,Cable & Satellite
+CMCSA,0.2634,-0.0215,-0.2585,0.4989,Moderate Risk,37.37,Communication Services,Comcast,Cable & Satellite
+EA,0.267,-0.0179,-0.3054,0.4054,Moderate Risk,145.19,Communication Services,Electronic Arts,Interactive Home Entertainment
+FOXA,0.2034,-0.0164,-0.1158,0.4198,Low Risk,55.21,Communication Services,Fox Corporation (Class A),Broadcasting
+FOX,0.1968,-0.016,-0.1266,0.428,Low Risk,51.16,Communication Services,Fox Corporation (Class B),Broadcasting
+IPG,0.2252,-0.0234,-0.1781,0.5804,Low Risk,26.49,Communication Services,Interpublic Group of Companies (The),Advertising
+LYV,0.2839,-0.026,-0.2513,1.1333,Moderate Risk,126.75,Communication Services,Live Nation Entertainment,Movies & Entertainment
+MTCH,0.3895,-0.0323,-0.2166,0.9189,High Risk,31.83,Communication Services,Match Group,Interactive Media & Services
+META,0.3151,-0.0318,-0.2088,1.3185,High Risk,610.98,Communication Services,Meta Platforms,Interactive Media & Services
+NFLX,0.3156,-0.0257,-0.1813,1.2727,Moderate Risk,970.65,Communication Services,Netflix,Movies & Entertainment
+NWSA,0.2009,-0.0179,-0.1345,0.8307,Low Risk,27.47,Communication Services,News Corp (Class A),Publishing
+NWS,0.2065,-0.0182,-0.1372,0.839,Low Risk,30.77,Communication Services,News Corp (Class B),Publishing
+OMC,0.2384,-0.0241,-0.2347,0.6668,Moderate Risk,81.14,Communication Services,Omnicom Group,Advertising
+PARA,0.4643,-0.0435,-0.3032,0.481,High Risk,11.86,Communication Services,Paramount Global,Movies & Entertainment
+TMUS,0.213,-0.0185,-0.1443,0.2714,Low Risk,262.51,Communication Services,T-Mobile US,Wireless Telecommunication Services
+TTWO,0.2682,-0.0236,-0.1897,0.6719,Low Risk,215.89,Communication Services,Take-Two Interactive,Interactive Home Entertainment
+TKO,0.2796,-0.0215,-0.2074,0.6548,Moderate Risk,154.61,Communication Services,TKO Group Holdings,Movies & Entertainment
+VZ,0.2155,-0.0198,-0.1356,-0.1073,Low Risk,44.18,Communication Services,Verizon,Integrated Telecommunication Services
+DIS,0.2359,-0.0238,-0.2998,0.6044,Moderate Risk,100.78,Communication Services,Walt Disney Company (The),Movies & Entertainment
+WBD,0.4896,-0.0441,-0.2418,1.0221,High Risk,11.03,Communication Services,Warner Bros. Discovery,Broadcasting
+ABNB,0.3684,-0.0341,-0.3209,1.255,High Risk,128.64,Consumer Discretionary,Airbnb,"Hotels, Resorts & Cruise Lines"
+AMZN,0.283,-0.0275,-0.2034,1.4578,High Risk,201.13,Consumer Discretionary,Amazon,Broadline Retail
+APTV,0.3707,-0.0339,-0.3844,1.0184,High Risk,65.8,Consumer Discretionary,Aptiv,Automotive Parts & Equipment
+AZO,0.1961,-0.018,-0.1421,0.325,Low Risk,3681.68,Consumer Discretionary,AutoZone,Automotive Retail
+BBY,0.3565,-0.0298,-0.3122,0.7063,Moderate Risk,74.83,Consumer Discretionary,Best Buy,Computer & Electronics Retail
+BKNG,0.2617,-0.0269,-0.1975,1.0931,Low Risk,4764.16,Consumer Discretionary,Booking Holdings,"Hotels, Resorts & Cruise Lines"
+CZR,0.4416,-0.0496,-0.4154,1.7749,High Risk,27.6,Consumer Discretionary,Caesars Entertainment,Casinos & Gaming
+KMX,0.319,-0.0335,-0.2284,1.0391,High Risk,75.07,Consumer Discretionary,CarMax,Automotive Retail
+CCL,0.4344,-0.0472,-0.3303,1.6914,High Risk,20.93,Consumer Discretionary,Carnival,"Hotels, Resorts & Cruise Lines"
+CMG,0.3101,-0.0344,-0.3029,0.8428,High Risk,50.07,Consumer Discretionary,Chipotle Mexican Grill,Restaurants
+DRI,0.2907,-0.0211,-0.1592,0.6795,Low Risk,207.45,Consumer Discretionary,Darden Restaurants,Restaurants
+DECK,0.4388,-0.0405,-0.4832,1.5836,High Risk,118.16,Consumer Discretionary,Deckers Brands,Footwear
+DPZ,0.304,-0.0255,-0.2438,0.7869,Moderate Risk,466.84,Consumer Discretionary,Domino's,Restaurants
+DASH,0.3384,-0.0282,-0.2885,1.1178,Moderate Risk,192.87,Consumer Discretionary,DoorDash,Interactive Media & Services
+DHI,0.3327,-0.0313,-0.3608,0.6577,High Risk,129.38,Consumer Discretionary,D. R. Horton,Homebuilding
+EBAY,0.2773,-0.0259,-0.1438,0.6585,Low Risk,65.58,Consumer Discretionary,eBay Inc.,Broadline Retail
+EXPE,0.3907,-0.0315,-0.2377,1.112,High Risk,173.43,Consumer Discretionary,Expedia Group,"Hotels, Resorts & Cruise Lines"
+F,0.3574,-0.0321,-0.3484,1.0066,High Risk,10.3,Consumer Discretionary,Ford Motor Company,Automobile Manufacturers
+GRMN,0.3624,-0.0206,-0.1459,0.7973,Low Risk,216.83,Consumer Discretionary,Garmin,Consumer Electronics
+GM,0.3471,-0.0332,-0.2471,1.0576,High Risk,50.95,Consumer Discretionary,General Motors,Automobile Manufacturers
+GPC,0.3278,-0.0253,-0.2978,0.4859,Moderate Risk,118.46,Consumer Discretionary,Genuine Parts Company,Distributors
+HAS,0.3055,-0.0266,-0.2275,0.4433,Moderate Risk,61.49,Consumer Discretionary,Hasbro,Leisure Products
+HLT,0.214,-0.0232,-0.1885,0.9617,Low Risk,234.86,Consumer Discretionary,Hilton Worldwide,"Hotels, Resorts & Cruise Lines"
+HD,0.2174,-0.0216,-0.1899,0.7373,Low Risk,362.13,Consumer Discretionary,Home Depot (The),Home Improvement Retail
+LVS,0.3203,-0.0291,-0.2954,0.6745,Moderate Risk,40.31,Consumer Discretionary,Las Vegas Sands,Casinos & Gaming
+LEN,0.3139,-0.0356,-0.3775,0.6785,High Risk,117.87,Consumer Discretionary,Lennar,Homebuilding
+LKQ,0.2972,-0.023,-0.3108,0.4681,Moderate Risk,40.99,Consumer Discretionary,LKQ Corporation,Distributors
+LOW,0.2239,-0.0224,-0.2094,0.6904,Moderate Risk,232.05,Consumer Discretionary,Lowe's,Home Improvement Retail
+LULU,0.3755,-0.0332,-0.4025,1.0293,High Risk,337.79,Consumer Discretionary,Lululemon Athletica,"Apparel, Accessories & Luxury Goods"
+MAR,0.2333,-0.029,-0.2189,1.0152,Moderate Risk,246.72,Consumer Discretionary,Marriott International,"Hotels, Resorts & Cruise Lines"
+MCD,0.1878,-0.0175,-0.1227,0.258,Low Risk,313.58,Consumer Discretionary,McDonald's,Restaurants
+MGM,0.3843,-0.0354,-0.3688,1.4425,High Risk,32.12,Consumer Discretionary,MGM Resorts,Casinos & Gaming
+MHK,0.3961,-0.0329,-0.3183,1.0484,High Risk,116.86,Consumer Discretionary,Mohawk Industries,Home Furnishings
+NKE,0.3355,-0.028,-0.3136,0.5224,Moderate Risk,65.74,Consumer Discretionary,"Nike, Inc.","Apparel, Accessories & Luxury Goods"
+NCLH,0.4785,-0.0508,-0.3626,1.7382,High Risk,20.22,Consumer Discretionary,Norwegian Cruise Line Holdings,"Hotels, Resorts & Cruise Lines"
+NVR,0.2364,-0.0231,-0.2884,0.5878,Moderate Risk,7314.92,Consumer Discretionary,"NVR, Inc.",Homebuilding
+ORLY,0.1923,-0.0164,-0.161,0.3728,Low Risk,1380.98,Consumer Discretionary,O’Reilly Automotive,Automotive Retail
+POOL,0.2987,-0.0287,-0.2834,0.6987,Moderate Risk,326.93,Consumer Discretionary,Pool Corporation,Distributors
+PHM,0.3192,-0.0318,-0.3204,0.8694,High Risk,105.22,Consumer Discretionary,PulteGroup,Homebuilding
+RL,0.3221,-0.0317,-0.2443,1.2529,High Risk,228.77,Consumer Discretionary,Ralph Lauren Corporation,"Apparel, Accessories & Luxury Goods"
+ROST,0.2296,-0.0234,-0.2108,0.7589,Moderate Risk,127.7,Consumer Discretionary,Ross Stores,Apparel Retail
+RCL,0.3837,-0.0385,-0.2573,1.6216,High Risk,219.86,Consumer Discretionary,Royal Caribbean Group,"Hotels, Resorts & Cruise Lines"
+SBUX,0.3921,-0.0256,-0.2079,0.7041,Moderate Risk,97.97,Consumer Discretionary,Starbucks,Restaurants
+TPR,0.3742,-0.029,-0.2394,1.0768,Moderate Risk,73.68,Consumer Discretionary,"Tapestry, Inc.","Apparel, Accessories & Luxury Goods"
+TSLA,0.6904,-0.0563,-0.5371,2.8382,High Risk,272.06,Consumer Discretionary,"Tesla, Inc.",Automobile Manufacturers
+TJX,0.1752,-0.0159,-0.1104,0.6186,Low Risk,119.7,Consumer Discretionary,TJX Companies,Apparel Retail
+ULTA,0.3891,-0.0358,-0.4055,1.0149,High Risk,371.9,Consumer Discretionary,Ulta Beauty,Other Specialty Retail
+WSM,0.4973,-0.0469,-0.2483,1.4756,High Risk,165.36,Consumer Discretionary,"Williams-Sonoma, Inc.",Other Specialty Retail
+WYNN,0.3438,-0.0314,-0.3138,0.9008,High Risk,85.83,Consumer Discretionary,Wynn Resorts,Casinos & Gaming
+YUM,0.1999,-0.0166,-0.1265,0.3782,Low Risk,158.68,Consumer Discretionary,Yum! Brands,Restaurants
+MO,0.1775,-0.0154,-0.1029,-0.1233,Low Risk,57.75,Consumer Staples,Altria,Tobacco
+ADM,0.2418,-0.0261,-0.2995,0.086,Moderate Risk,47.07,Consumer Staples,Archer Daniels Midland,Agricultural Products & Services
+BF-B,0.2985,-0.0283,-0.4023,0.1312,Moderate Risk,34.18,Consumer Staples,Brown–Forman,Distillers & Vintners
+BG,0.2518,-0.0246,-0.3882,0.0563,Moderate Risk,74.19,Consumer Staples,Bunge Global,Agricultural Products & Services
+CPB,0.2367,-0.025,-0.269,-0.1492,Moderate Risk,39.14,Consumer Staples,Campbell's Company (The),Packaged Foods & Meats
+CHD,0.1785,-0.0179,-0.1083,-0.0837,Low Risk,106.31,Consumer Staples,Church & Dwight,Household Products
+CLX,0.2096,-0.0194,-0.1584,0.0376,Low Risk,142.98,Consumer Staples,Clorox,Household Products
+KO,0.1516,-0.0147,-0.155,-0.0206,Low Risk,70.02,Consumer Staples,Coca-Cola Company (The),Soft Drinks & Non-alcoholic Beverages
+CL,0.1855,-0.0166,-0.2039,-0.0466,Moderate Risk,92.03,Consumer Staples,Colgate-Palmolive,Household Products
+CAG,0.2375,-0.0238,-0.2531,-0.1313,Moderate Risk,25.92,Consumer Staples,Conagra Brands,Packaged Foods & Meats
+STZ,0.2785,-0.025,-0.397,0.3501,Moderate Risk,184.11,Consumer Staples,Constellation Brands,Distillers & Vintners
+COST,0.2007,-0.0181,-0.1729,0.7525,Low Risk,929.75,Consumer Staples,Costco,Consumer Staples Merchandise Retail
+DG,0.4562,-0.0339,-0.561,0.0161,High Risk,84.7,Consumer Staples,Dollar General,Consumer Staples Merchandise Retail
+DLTR,0.4202,-0.0336,-0.5496,0.4127,High Risk,69.21,Consumer Staples,Dollar Tree,Consumer Staples Merchandise Retail
+EL,0.4618,-0.0357,-0.5878,0.8377,High Risk,65.89,Consumer Staples,Estée Lauder Companies (The),Personal Care Products
+GIS,0.2116,-0.0233,-0.22,-0.2403,Moderate Risk,59.07,Consumer Staples,General Mills,Packaged Foods & Meats
+HSY,0.2628,-0.025,-0.2942,-0.0866,Moderate Risk,168.52,Consumer Staples,Hershey Company (The),Packaged Foods & Meats
+HRL,0.2259,-0.0215,-0.2088,-0.0346,Moderate Risk,29.58,Consumer Staples,Hormel Foods,Packaged Foods & Meats
+K,0.2319,-0.0121,-0.0934,-0.2793,Low Risk,82.45,Consumer Staples,Kellanova,Packaged Foods & Meats
+KVUE,0.2675,-0.0198,-0.1838,0.0894,Low Risk,23.4,Consumer Staples,Kenvue,Personal Care Products
+KDP,0.1827,-0.0154,-0.1899,0.0662,Low Risk,34.06,Consumer Staples,Keurig Dr Pepper,Soft Drinks & Non-alcoholic Beverages
+KMB,0.1839,-0.018,-0.1468,-0.0559,Low Risk,139.61,Consumer Staples,Kimberly-Clark,Household Products
+KHC,0.2146,-0.0227,-0.2356,0.0824,Moderate Risk,29.69,Consumer Staples,Kraft Heinz,Packaged Foods & Meats
+KR,0.2183,-0.0203,-0.1416,0.07,Low Risk,66.03,Consumer Staples,Kroger,Food Retail
+LW,0.5136,-0.0343,-0.5336,1.2274,High Risk,53.71,Consumer Staples,Lamb Weston,Packaged Foods & Meats
+MKC,0.1982,-0.0201,-0.1501,0.0371,Low Risk,80.87,Consumer Staples,McCormick & Company,Packaged Foods & Meats
+TAP,0.2703,-0.0229,-0.2676,0.3946,Moderate Risk,60.56,Consumer Staples,Molson Coors Beverage Company,Brewers
+MDLZ,0.1969,-0.0207,-0.2481,-0.0005,Moderate Risk,66.33,Consumer Staples,Mondelez International,Packaged Foods & Meats
+MNST,0.2439,-0.0196,-0.2407,0.1456,Moderate Risk,57.76,Consumer Staples,Monster Beverage,Soft Drinks & Non-alcoholic Beverages
+PEP,0.183,-0.0196,-0.2022,-0.0773,Moderate Risk,148.64,Consumer Staples,PepsiCo,Soft Drinks & Non-alcoholic Beverages
+PM,0.2344,-0.0161,-0.1098,0.065,Low Risk,154.33,Consumer Staples,Philip Morris International,Tobacco
+PG,0.1694,-0.0172,-0.1176,-0.0605,Low Risk,166.58,Consumer Staples,Procter & Gamble,Personal Care Products
+SJM,0.2451,-0.0238,-0.1786,0.0267,Low Risk,114.48,Consumer Staples,J.M. Smucker Company (The),Packaged Foods & Meats
+SYY,0.205,-0.0199,-0.1444,0.198,Low Risk,72.75,Consumer Staples,Sysco,Food Distributors
+TGT,0.3617,-0.0277,-0.3968,0.6226,Moderate Risk,106.09,Consumer Staples,Target Corporation,Consumer Staples Merchandise Retail
+TSN,0.2105,-0.0215,-0.1697,-0.0831,Low Risk,61.59,Consumer Staples,Tyson Foods,Packaged Foods & Meats
+WBA,0.6468,-0.048,-0.6051,0.1919,High Risk,11.1,Consumer Staples,Walgreens Boots Alliance,Drug Retail
+WMT,0.2152,-0.0196,-0.1956,0.4383,Low Risk,85.21,Consumer Staples,Walmart,Consumer Staples Merchandise Retail
+APA,0.3721,-0.0403,-0.4621,0.6613,High Risk,21.1,Energy,APA Corporation,Oil & Gas Exploration & Production
+BKR,0.2882,-0.0276,-0.1533,0.919,Low Risk,44.02,Energy,Baker Hughes,Oil & Gas Equipment & Services
+CVX,0.1987,-0.0222,-0.1533,0.3656,Low Risk,167.97,Energy,Chevron Corporation,Integrated Oil & Gas
+COP,0.2436,-0.025,-0.3172,0.3017,Moderate Risk,103.2,Energy,ConocoPhillips,Oil & Gas Exploration & Production
+CTRA,0.2511,-0.0244,-0.1999,0.6192,Low Risk,28.87,Energy,Coterra,Oil & Gas Exploration & Production
+DVN,0.2842,-0.0331,-0.4258,0.6013,High Risk,37.47,Energy,Devon Energy,Oil & Gas Exploration & Production
+FANG,0.2847,-0.0316,-0.3207,0.5719,High Risk,163.09,Energy,Diamondback Energy,Oil & Gas Exploration & Production
+EOG,0.2308,-0.0273,-0.1371,0.3473,Low Risk,129.18,Energy,EOG Resources,Oil & Gas Exploration & Production
+EQT,0.3436,-0.0281,-0.2793,0.9672,Moderate Risk,52.92,Energy,EQT Corporation,Oil & Gas Exploration & Production
+EXE,0.2458,-0.0228,-0.2332,0.6983,Moderate Risk,109.94,Energy,Expand Energy,Oil & Gas Exploration & Production
+XOM,0.2024,-0.0212,-0.1515,0.2055,Low Risk,118.27,Energy,ExxonMobil,Integrated Oil & Gas
+HAL,0.2899,-0.0351,-0.4049,0.7797,High Risk,25.7,Energy,Halliburton,Oil & Gas Equipment & Services
+HES,0.2284,-0.0246,-0.2234,0.4887,Moderate Risk,160.52,Energy,Hess Corporation,Integrated Oil & Gas
+KMI,0.223,-0.0178,-0.1551,0.6066,Low Risk,28.48,Energy,Kinder Morgan,Oil & Gas Storage & Transportation
+MPC,0.3103,-0.0333,-0.3899,0.5482,High Risk,149.81,Energy,Marathon Petroleum,Oil & Gas Refining & Marketing
+OXY,0.2405,-0.0276,-0.3369,0.4548,Moderate Risk,49.75,Energy,Occidental Petroleum,Oil & Gas Exploration & Production
+OKE,0.2343,-0.0251,-0.2266,0.6821,Moderate Risk,101.26,Energy,Oneok,Oil & Gas Storage & Transportation
+PSX,0.2724,-0.0317,-0.3449,0.5896,High Risk,126.57,Energy,Phillips 66,Oil & Gas Refining & Marketing
+SLB,0.2739,-0.0308,-0.3201,0.7905,High Risk,42.42,Energy,Schlumberger,Oil & Gas Equipment & Services
+TRGP,0.2712,-0.0276,-0.1755,0.9138,Low Risk,202.04,Energy,Targa Resources,Oil & Gas Storage & Transportation
+TPL,0.5093,-0.0481,-0.3656,1.359,High Risk,1358.75,Energy,Texas Pacific Land Corporation,Oil & Gas Exploration & Production
+VLO,0.3098,-0.0326,-0.3396,0.4109,High Risk,134.52,Energy,Valero Energy,Oil & Gas Refining & Marketing
+WMB,0.2349,-0.0209,-0.1218,0.7562,Low Risk,59.95,Energy,Williams Companies,Oil & Gas Storage & Transportation
+AFL,0.1939,-0.0206,-0.1253,0.3556,Low Risk,110.44,Financials,Aflac,Life & Health Insurance
+ALL,0.2347,-0.0216,-0.1273,0.2615,Low Risk,209.28,Financials,Allstate,Property & Casualty Insurance
+AXP,0.255,-0.0274,-0.2163,1.1545,Moderate Risk,276.0,Financials,American Express,Consumer Finance
+AIG,0.2148,-0.0216,-0.1242,0.5664,Low Risk,84.19,Financials,American International Group,Multi-line Insurance
+AMP,0.2418,-0.0211,-0.1765,0.9941,Low Risk,505.11,Financials,Ameriprise Financial,Asset Management & Custody Banks
+AON,0.1947,-0.0158,-0.1717,0.2695,Low Risk,396.73,Financials,Aon plc,Insurance Brokers
+APO,0.3526,-0.0336,-0.2925,1.6411,High Risk,144.64,Financials,Apollo Global Management,Asset Management & Custody Banks
+ACGL,0.2364,-0.0228,-0.1931,0.3715,Low Risk,95.93,Financials,Arch Capital Group,Property & Casualty Insurance
+AJG,0.1873,-0.0195,-0.1229,0.2413,Low Risk,336.73,Financials,Arthur J. Gallagher & Co.,Insurance Brokers
+AIZ,0.2071,-0.0193,-0.1396,0.486,Low Risk,212.31,Financials,Assurant,Multi-line Insurance
+BAC,0.2398,-0.0203,-0.1695,0.8961,Low Risk,42.82,Financials,Bank of America,Diversified Banks
+BRK-B,0.1602,-0.0146,-0.0837,0.4449,Low Risk,533.21,Financials,Berkshire Hathaway,Multi-Sector Holdings
+BLK,0.2042,-0.0198,-0.1582,0.9221,Low Risk,968.24,Financials,BlackRock,Asset Management & Custody Banks
+BX,0.3093,-0.0321,-0.3082,1.4822,High Risk,146.66,Financials,Blackstone Inc.,Asset Management & Custody Banks
+BK,0.2041,-0.0164,-0.1044,0.7756,Low Risk,85.09,Financials,BNY Mellon,Asset Management & Custody Banks
+BRO,0.177,-0.0179,-0.1136,0.3611,Low Risk,121.77,Financials,Brown & Brown,Insurance Brokers
+COF,0.3295,-0.0265,-0.219,1.2463,High Risk,179.83,Financials,Capital One,Consumer Finance
+CBOE,0.2189,-0.0201,-0.1239,-0.5394,Low Risk,217.95,Financials,Cboe Global Markets,Financial Exchanges & Data
+SCHW,0.2763,-0.0235,-0.2144,0.7604,Moderate Risk,80.14,Financials,Charles Schwab Corporation,Investment Banking & Brokerage
+CB,0.1916,-0.0182,-0.1435,0.1205,Low Risk,295.32,Financials,Chubb Limited,Property & Casualty Insurance
+CINF,0.2269,-0.0178,-0.1606,0.4427,Low Risk,146.49,Financials,Cincinnati Financial,Property & Casualty Insurance
+C,0.287,-0.0259,-0.2056,1.2684,High Risk,73.24,Financials,Citigroup,Diversified Banks
+CFG,0.2955,-0.0261,-0.1778,1.0515,Low Risk,41.99,Financials,Citizens Financial Group,Regional Banks
+CME,0.1655,-0.0164,-0.1025,-0.1479,Low Risk,262.72,Financials,CME Group,Financial Exchanges & Data
+CPAY,0.2593,-0.0242,-0.2103,0.897,Moderate Risk,357.39,Financials,Corpay,Transaction & Payment Processing Services
+DFS,0.378,-0.0306,-0.2447,1.3829,High Risk,166.14,Financials,Discover Financial,Consumer Finance
+ERIE,0.2861,-0.0304,-0.3029,0.4302,High Risk,419.47,Financials,Erie Indemnity,Insurance Brokers
+EG,0.2393,-0.02,-0.1854,0.5444,Low Risk,366.16,Financials,Everest Group,Reinsurance
+FDS,0.1994,-0.0227,-0.1338,0.5463,Low Risk,441.24,Financials,FactSet,Financial Exchanges & Data
+FIS,0.2326,-0.0208,-0.2436,0.4314,Moderate Risk,74.58,Financials,Fidelity National Information Services,Transaction & Payment Processing Services
+FITB,0.2452,-0.0209,-0.2195,0.8346,Moderate Risk,40.17,Financials,Fifth Third Bancorp,Regional Banks
+FI,0.2101,-0.0163,-0.1192,0.6986,Low Risk,221.69,Financials,Fiserv,Transaction & Payment Processing Services
+BEN,0.3075,-0.0261,-0.31,0.8317,Moderate Risk,19.86,Financials,Franklin Resources,Asset Management & Custody Banks
+GPN,0.2977,-0.0274,-0.3083,0.8624,Moderate Risk,99.92,Financials,Global Payments,Transaction & Payment Processing Services
+GL,0.6569,-0.0267,-0.5774,0.3614,Moderate Risk,130.53,Financials,Globe Life,Life & Health Insurance
+GS,0.2846,-0.0245,-0.2154,1.3673,High Risk,573.92,Financials,Goldman Sachs,Investment Banking & Brokerage
+HIG,0.2126,-0.021,-0.1372,0.4237,Low Risk,122.66,Financials,Hartford (The),Property & Casualty Insurance
+HBAN,0.2708,-0.0244,-0.2081,1.0243,Moderate Risk,15.26,Financials,Huntington Bancshares,Regional Banks
+ICE,0.1652,-0.0142,-0.1419,0.4724,Low Risk,175.76,Financials,Intercontinental Exchange,Financial Exchanges & Data
+IVZ,0.309,-0.0331,-0.2251,1.352,High Risk,15.69,Financials,Invesco,Asset Management & Custody Banks
+JKHY,0.1929,-0.0174,-0.1028,0.1767,Low Risk,179.39,Financials,Jack Henry & Associates,Transaction & Payment Processing Services
+JPM,0.2546,-0.0222,-0.1956,0.9195,Low Risk,251.03,Financials,JPMorgan Chase,Diversified Banks
+KEY,0.3281,-0.0296,-0.2238,1.2403,High Risk,16.4,Financials,KeyCorp,Regional Banks
+KKR,0.3751,-0.0322,-0.3517,1.8239,High Risk,119.44,Financials,KKR & Co.,Asset Management & Custody Banks
+L,0.18,-0.0199,-0.068,0.4668,Low Risk,90.51,Financials,Loews Corporation,Multi-line Insurance
+MTB,0.2643,-0.0224,-0.2217,0.8292,Moderate Risk,182.2,Financials,M&T Bank,Regional Banks
+MKTX,0.2941,-0.0252,-0.3492,0.0551,Moderate Risk,214.88,Financials,MarketAxess,Financial Exchanges & Data
+MMC,0.1403,-0.0136,-0.1062,0.2414,Low Risk,238.8,Financials,Marsh McLennan,Insurance Brokers
+MA,0.1674,-0.0179,-0.1054,0.6235,Low Risk,549.07,Financials,Mastercard,Transaction & Payment Processing Services
+MET,0.2303,-0.0213,-0.1157,0.8381,Low Risk,83.93,Financials,MetLife,Life & Health Insurance
+MCO,0.204,-0.019,-0.1685,0.8556,Low Risk,470.1,Financials,Moody's Corporation,Financial Exchanges & Data
+MS,0.2866,-0.0259,-0.2084,1.3128,High Risk,122.2,Financials,Morgan Stanley,Investment Banking & Brokerage
+MSCI,0.262,-0.0233,-0.2042,0.637,Moderate Risk,569.47,Financials,MSCI Inc.,Financial Exchanges & Data
+NDAQ,0.1965,-0.0198,-0.1384,0.7194,Low Risk,77.53,Financials,"Nasdaq, Inc.",Financial Exchanges & Data
+NTRS,0.2348,-0.0244,-0.1557,0.8797,Low Risk,101.44,Financials,Northern Trust,Asset Management & Custody Banks
+PYPL,0.3335,-0.0298,-0.2712,1.072,Moderate Risk,69.97,Financials,PayPal,Transaction & Payment Processing Services
+PNC,0.233,-0.0208,-0.2082,0.8733,Moderate Risk,176.92,Financials,PNC Financial Services,Diversified Banks
+PFG,0.2206,-0.0234,-0.1722,0.8104,Low Risk,85.6,Financials,Principal Financial Group,Life & Health Insurance
+PGR,0.215,-0.0186,-0.1089,0.1945,Low Risk,272.54,Financials,Progressive Corporation,Property & Casualty Insurance
+PRU,0.2371,-0.0236,-0.1791,0.9209,Low Risk,115.59,Financials,Prudential Financial,Life & Health Insurance
+RJF,0.2602,-0.0269,-0.2028,0.9001,Moderate Risk,144.54,Financials,Raymond James Financial,Investment Banking & Brokerage
+RF,0.2581,-0.0235,-0.2262,0.9521,Moderate Risk,22.24,Financials,Regions Financial Corporation,Regional Banks
+SPGI,0.1706,-0.017,-0.1189,0.6524,Low Risk,507.8,Financials,S&P Global,Financial Exchanges & Data
+STT,0.2304,-0.0225,-0.1737,0.8576,Low Risk,92.65,Financials,State Street Corporation,Asset Management & Custody Banks
+SYF,0.3665,-0.0313,-0.2625,1.3895,High Risk,55.2,Financials,Synchrony Financial,Consumer Finance
+TROW,0.2316,-0.0236,-0.2542,1.1213,Moderate Risk,94.44,Financials,T. Rowe Price,Asset Management & Custody Banks
+TRV,0.2457,-0.0208,-0.1247,0.3905,Low Risk,262.26,Financials,Travelers Companies (The),Property & Casualty Insurance
+TFC,0.2647,-0.0241,-0.1708,1.0256,Low Risk,41.98,Financials,Truist Financial,Diversified Banks
+USB,0.2568,-0.0245,-0.2294,0.9664,Moderate Risk,43.77,Financials,U.S. Bancorp,Diversified Banks
+V,0.1763,-0.0148,-0.0969,0.5918,Low Risk,344.18,Financials,Visa Inc.,Transaction & Payment Processing Services
+WRB,0.2179,-0.0196,-0.1333,0.245,Low Risk,65.24,Financials,W. R. Berkley Corporation,Property & Casualty Insurance
+WFC,0.2995,-0.0223,-0.1758,1.0055,Low Risk,73.47,Financials,Wells Fargo,Diversified Banks
+WTW,0.1741,-0.0166,-0.0951,0.1792,Low Risk,338.59,Financials,Willis Towers Watson,Insurance Brokers
+ABT,0.1938,-0.0186,-0.1105,0.1102,Low Risk,126.61,Health Care,Abbott Laboratories,Health Care Equipment
+ABBV,0.2517,-0.0201,-0.1907,0.0904,Low Risk,201.3,Health Care,AbbVie,Biotechnology
+A,0.2629,-0.0243,-0.2372,0.8474,Moderate Risk,119.9,Health Care,Agilent Technologies,Life Sciences Tools & Services
+ALGN,0.3712,-0.0375,-0.514,1.4418,High Risk,166.46,Health Care,Align Technology,Health Care Supplies
+AMGN,0.2609,-0.0236,-0.2274,0.4771,Moderate Risk,305.71,Health Care,Amgen,Biotechnology
+BAX,0.2851,-0.0269,-0.3283,0.2628,Moderate Risk,33.36,Health Care,Baxter International,Health Care Equipment
+BDX,0.191,-0.0182,-0.1037,0.2052,Low Risk,228.0,Health Care,Becton Dickinson,Health Care Equipment
+TECH,0.377,-0.0309,-0.3029,1.0109,High Risk,59.38,Health Care,Bio-Techne,Life Sciences Tools & Services
+BIIB,0.2581,-0.0284,-0.4365,0.3851,Moderate Risk,142.43,Health Care,Biogen,Biotechnology
+BSX,0.1873,-0.0132,-0.1135,0.6641,Low Risk,102.34,Health Care,Boston Scientific,Health Care Equipment
+BMY,0.2981,-0.0253,-0.2527,-0.0243,Moderate Risk,59.21,Health Care,Bristol Myers Squibb,Pharmaceuticals
+CAH,0.2078,-0.0201,-0.1592,0.2102,Low Risk,133.98,Health Care,Cardinal Health,Health Care Distributors
+COR,0.1837,-0.0168,-0.1184,0.0455,Low Risk,271.39,Health Care,Cencora,Health Care Distributors
+CNC,0.322,-0.0309,-0.3029,0.1965,High Risk,60.54,Health Care,Centene Corporation,Managed Health Care
+CRL,0.3727,-0.0379,-0.439,1.0936,High Risk,158.25,Health Care,Charles River Laboratories,Life Sciences Tools & Services
+CI,0.2576,-0.0271,-0.273,-0.0024,Moderate Risk,321.23,Health Care,Cigna,Health Care Services
+COO,0.2604,-0.0229,-0.3012,0.5231,Moderate Risk,83.86,Health Care,Cooper Companies (The),Health Care Supplies
+CVS,0.4085,-0.0339,-0.4333,0.436,High Risk,67.2,Health Care,CVS Health,Health Care Services
+DHR,0.243,-0.0221,-0.2803,0.5798,Moderate Risk,210.41,Health Care,Danaher Corporation,Life Sciences Tools & Services
+DVA,0.3074,-0.028,-0.2106,0.4283,Moderate Risk,151.37,Health Care,DaVita,Health Care Services
+DXCM,0.5509,-0.0335,-0.5443,0.6695,High Risk,72.13,Health Care,Dexcom,Health Care Equipment
+EW,0.4027,-0.022,-0.3753,0.7292,Moderate Risk,71.09,Health Care,Edwards Lifesciences,Health Care Equipment
+ELV,0.2592,-0.0262,-0.3448,0.242,Moderate Risk,430.53,Health Care,Elevance Health,Managed Health Care
+GEHC,0.2702,-0.0225,-0.1783,0.8424,Low Risk,81.0,Health Care,GE HealthCare,Health Care Equipment
+GILD,0.2404,-0.0226,-0.1341,0.1572,Low Risk,109.27,Health Care,Gilead Sciences,Biotechnology
+HCA,0.2772,-0.0287,-0.2845,0.2724,Moderate Risk,337.29,Health Care,HCA Healthcare,Health Care Facilities
+HSIC,0.2734,-0.0235,-0.1536,0.4222,Low Risk,69.75,Health Care,Henry Schein,Health Care Distributors
+HOLX,0.2106,-0.0187,-0.275,0.1172,Moderate Risk,61.48,Health Care,Hologic,Health Care Equipment
+HUM,0.4088,-0.0345,-0.4202,0.4908,High Risk,270.48,Health Care,Humana,Managed Health Care
+IDXX,0.2845,-0.0256,-0.2593,0.8135,Moderate Risk,417.71,Health Care,Idexx Laboratories,Health Care Equipment
+INCY,0.3268,-0.0302,-0.2804,0.4912,High Risk,61.26,Health Care,Incyte,Biotechnology
+PODD,0.3503,-0.0297,-0.1777,0.9108,Low Risk,264.88,Health Care,Insulet Corporation,Health Care Equipment
+ISRG,0.2835,-0.0246,-0.219,1.2033,High Risk,509.03,Health Care,Intuitive Surgical,Health Care Equipment
+IQV,0.2765,-0.0277,-0.2881,0.9083,Moderate Risk,180.02,Health Care,IQVIA,Life Sciences Tools & Services
+JNJ,0.1661,-0.0172,-0.1445,-0.1533,Low Risk,161.72,Health Care,Johnson & Johnson,Pharmaceuticals
+LH,0.2165,-0.0201,-0.1156,0.432,Low Risk,233.34,Health Care,Labcorp,Health Care Services
+LLY,0.3162,-0.0342,-0.2428,0.7858,High Risk,826.76,Health Care,Lilly (Eli),Pharmaceuticals
+MCK,0.2622,-0.0192,-0.2391,0.0593,Moderate Risk,663.02,Health Care,McKesson Corporation,Health Care Distributors
+MDT,0.1995,-0.0185,-0.1331,0.2477,Low Risk,88.23,Health Care,Medtronic,Health Care Equipment
+MRK,0.2352,-0.0213,-0.3665,-0.0532,Moderate Risk,88.11,Health Care,Merck & Co.,Pharmaceuticals
+MTD,0.32,-0.0286,-0.2417,0.8573,Moderate Risk,1191.03,Health Care,Mettler Toledo,Life Sciences Tools & Services
+MRNA,0.6709,-0.0717,-0.8183,1.3958,High Risk,31.48,Health Care,Moderna,Biotechnology
+MOH,0.4294,-0.0327,-0.3632,0.1702,High Risk,323.44,Health Care,Molina Healthcare,Managed Health Care
+PFE,0.2261,-0.0225,-0.1977,0.2204,Low Risk,25.21,Health Care,Pfizer,Pharmaceuticals
+DGX,0.2134,-0.0174,-0.0795,0.248,Low Risk,166.62,Health Care,Quest Diagnostics,Health Care Services
+REGN,0.2601,-0.0275,-0.4716,0.5568,Moderate Risk,640.14,Health Care,Regeneron Pharmaceuticals,Biotechnology
+RMD,0.3728,-0.0351,-0.1742,0.7155,Moderate Risk,221.88,Health Care,ResMed,Health Care Equipment
+RVTY,0.2887,-0.0261,-0.1616,0.7589,Low Risk,107.36,Health Care,Revvity,Health Care Equipment
+SOLV,0.3156,-0.0313,-0.3146,0.5151,High Risk,74.24,Health Care,Solventum,Health Care Technology
+STE,0.2072,-0.0204,-0.1787,0.3545,Low Risk,223.06,Health Care,Steris,Health Care Equipment
+SYK,0.191,-0.0185,-0.1172,0.5903,Low Risk,367.77,Health Care,Stryker Corporation,Health Care Equipment
+TMO,0.2116,-0.0208,-0.1964,0.4785,Low Risk,513.67,Health Care,Thermo Fisher Scientific,Life Sciences Tools & Services
+UNH,0.2938,-0.0276,-0.259,0.2513,Moderate Risk,518.2,Health Care,UnitedHealth Group,Managed Health Care
+UHS,0.3082,-0.0345,-0.3196,0.405,High Risk,184.46,Health Care,Universal Health Services,Health Care Facilities
+VRTX,0.2561,-0.0234,-0.2324,0.5297,Moderate Risk,500.28,Health Care,Vertex Pharmaceuticals,Biotechnology
+VTRS,0.3184,-0.0262,-0.3222,0.481,Moderate Risk,8.96,Health Care,Viatris,Pharmaceuticals
+WAT,0.346,-0.0279,-0.2186,0.8376,Moderate Risk,367.79,Health Care,Waters Corporation,Life Sciences Tools & Services
+WST,0.5306,-0.0312,-0.4959,0.3068,High Risk,224.91,Health Care,West Pharmaceutical Services,Health Care Supplies
+ZBH,0.2241,-0.0217,-0.2486,0.2883,Moderate Risk,110.64,Health Care,Zimmer Biomet,Health Care Equipment
+ZTS,0.2482,-0.0231,-0.1993,0.3448,Low Risk,162.82,Health Care,Zoetis,Pharmaceuticals
+MMM,0.3176,-0.0184,-0.1053,0.7568,Low Risk,152.68,Industrials,3M,Industrial Conglomerates
+AOS,0.2403,-0.0219,-0.2821,0.5391,Moderate Risk,67.35,Industrials,A. O. Smith,Building Products
+ALLE,0.2128,-0.0212,-0.1928,0.5909,Low Risk,130.38,Industrials,Allegion,Building Products
+AME,0.2252,-0.0198,-0.1673,0.6934,Low Risk,176.9,Industrials,Ametek,Electrical Components & Equipment
+ADP,0.1629,-0.0171,-0.0882,0.4562,Low Risk,302.41,Industrials,Automatic Data Processing,Human Resource & Employment Services
+AXON,0.5273,-0.0348,-0.3005,1.2996,High Risk,559.06,Industrials,Axon Enterprise,Aerospace & Defense
+BA,0.3351,-0.0311,-0.2842,0.9001,High Risk,178.55,Industrials,Boeing,Aerospace & Defense
+BR,0.1854,-0.0155,-0.081,0.5868,Low Risk,238.19,Industrials,Broadridge Financial Solutions,Data Processing & Outsourced Services
+BLDR,0.4392,-0.0412,-0.4143,1.3452,High Risk,128.99,Industrials,Builders FirstSource,Building Products
+CHRW,0.2999,-0.0215,-0.1532,0.3593,Low Risk,101.88,Industrials,C.H. Robinson,Air Freight & Logistics
+CARR,0.294,-0.0246,-0.2447,1.207,High Risk,66.97,Industrials,Carrier Global,Building Products
+CAT,0.2711,-0.027,-0.2133,1.1343,Moderate Risk,341.11,Industrials,Caterpillar Inc.,Construction Machinery & Heavy Transportation Equipment
+CTAS,0.2254,-0.0187,-0.196,0.6423,Low Risk,204.71,Industrials,Cintas,Diversified Support Services
+CPRT,0.2275,-0.0198,-0.1803,0.8432,Low Risk,55.07,Industrials,Copart,Diversified Support Services
+CSX,0.2279,-0.0243,-0.2043,0.6326,Moderate Risk,29.9,Industrials,CSX Corporation,Rail Transportation
+CMI,0.2533,-0.0236,-0.1856,0.954,Low Risk,328.02,Industrials,Cummins,Construction Machinery & Heavy Transportation Equipment
+DAY,0.3647,-0.0407,-0.3621,1.1681,High Risk,59.67,Industrials,Dayforce,Human Resource & Employment Services
+DE,0.2558,-0.0226,-0.1638,0.6259,Low Risk,483.62,Industrials,Deere & Company,Agricultural & Farm Machinery
+DAL,0.3665,-0.0315,-0.3625,1.2655,High Risk,48.07,Industrials,Delta Air Lines,Passenger Airlines
+DOV,0.2249,-0.0212,-0.1399,0.9993,Low Risk,182.25,Industrials,Dover Corporation,Industrial Machinery & Supplies & Components
+ETN,0.3409,-0.0334,-0.2648,1.7087,High Risk,285.52,Industrials,Eaton Corporation,Electrical Components & Equipment
+EMR,0.2621,-0.0253,-0.1836,1.2204,Moderate Risk,113.59,Industrials,Emerson Electric,Electrical Components & Equipment
+EFX,0.2926,-0.0246,-0.2294,0.8461,Moderate Risk,241.73,Industrials,Equifax,Research & Consulting Services
+EXPD,0.1996,-0.0216,-0.1648,0.3697,Low Risk,119.17,Industrials,Expeditors International,Air Freight & Logistics
+FAST,0.234,-0.018,-0.1919,0.6514,Low Risk,77.09,Industrials,Fastenal,Trading Companies & Distributors
+FDX,0.3195,-0.0242,-0.254,0.6379,Moderate Risk,243.67,Industrials,FedEx,Air Freight & Logistics
+FTV,0.2155,-0.0212,-0.2201,1.0157,Moderate Risk,75.19,Industrials,Fortive,Industrial Machinery & Supplies & Components
+GE,0.3195,-0.0271,-0.1765,1.2547,Moderate Risk,207.37,Industrials,GE Aerospace,Aerospace & Defense
+GEV,0.551,-0.0441,-0.3829,2.312,High Risk,317.7,Industrials,GE Vernova,Heavy Electrical Equipment
+GNRC,0.346,-0.0368,-0.3454,1.0625,High Risk,133.83,Industrials,Generac,Electrical Components & Equipment
+GD,0.1965,-0.0181,-0.2255,0.4524,Moderate Risk,269.58,Industrials,General Dynamics,Aerospace & Defense
+HON,0.1909,-0.0171,-0.1409,0.5036,Low Risk,213.12,Industrials,Honeywell,Industrial Conglomerates
+HWM,0.3678,-0.0344,-0.1225,1.5039,High Risk,134.14,Industrials,Howmet Aerospace,Aerospace & Defense
+HUBB,0.3195,-0.0349,-0.2927,1.5162,High Risk,346.63,Industrials,Hubbell Incorporated,Industrial Machinery & Supplies & Components
+HII,0.4369,-0.0263,-0.4427,0.6917,Moderate Risk,203.27,Industrials,Huntington Ingalls Industries,Aerospace & Defense
+IEX,0.2349,-0.0203,-0.2633,0.7915,Moderate Risk,184.74,Industrials,IDEX Corporation,Industrial Machinery & Supplies & Components
+ITW,0.1765,-0.0183,-0.126,0.5796,Low Risk,255.89,Industrials,Illinois Tool Works,Industrial Machinery & Supplies & Components
+IR,0.2781,-0.0256,-0.2404,1.1925,Moderate Risk,81.38,Industrials,Ingersoll Rand,Industrial Machinery & Supplies & Components
+JBHT,0.2731,-0.0281,-0.2546,0.7749,Moderate Risk,151.39,Industrials,J.B. Hunt,Cargo Ground Transportation
+J,0.21,-0.02,-0.199,0.7321,Low Risk,123.97,Industrials,Jacobs Solutions,Construction & Engineering
+JCI,0.2793,-0.0243,-0.1502,1.2744,Moderate Risk,82.76,Industrials,Johnson Controls,Building Products
+LHX,0.2042,-0.0193,-0.2598,0.2009,Moderate Risk,211.93,Industrials,L3Harris,Aerospace & Defense
+LDOS,0.2877,-0.0244,-0.3686,0.4791,Moderate Risk,136.34,Industrials,Leidos,Diversified Support Services
+LII,0.303,-0.0314,-0.1752,1.2759,High Risk,578.88,Industrials,Lennox International,Building Products
+LMT,0.2143,-0.0161,-0.3071,-0.0766,Moderate Risk,445.17,Industrials,Lockheed Martin,Aerospace & Defense
+MAS,0.2417,-0.0232,-0.1863,0.6994,Low Risk,70.41,Industrials,Masco,Building Products
+NDSN,0.2352,-0.0185,-0.2758,0.7864,Moderate Risk,206.55,Industrials,Nordson Corporation,Industrial Machinery & Supplies & Components
+NSC,0.2649,-0.0248,-0.1736,0.7161,Low Risk,235.76,Industrials,Norfolk Southern,Rail Transportation
+NOC,0.2045,-0.0202,-0.1997,-0.0784,Low Risk,507.14,Industrials,Northrop Grumman,Aerospace & Defense
+ODFL,0.3509,-0.0347,-0.3031,0.9804,High Risk,168.67,Industrials,Old Dominion,Cargo Ground Transportation
+OTIS,0.1873,-0.0189,-0.1404,0.5304,Low Risk,102.69,Industrials,Otis Worldwide,Industrial Machinery & Supplies & Components
+PCAR,0.2765,-0.0251,-0.2616,0.829,Moderate Risk,99.53,Industrials,Paccar,Construction Machinery & Heavy Transportation Equipment
+PH,0.2758,-0.0274,-0.1625,1.3612,Moderate Risk,637.51,Industrials,Parker Hannifin,Industrial Machinery & Supplies & Components
+PAYX,0.2049,-0.0162,-0.0865,0.497,Low Risk,150.19,Industrials,Paychex,Human Resource & Employment Services
+PAYC,0.3907,-0.0305,-0.3241,0.7571,High Risk,222.72,Industrials,Paycom,Human Resource & Employment Services
+PNR,0.2519,-0.0242,-0.229,0.9654,Moderate Risk,90.13,Industrials,Pentair,Industrial Machinery & Supplies & Components
+PWR,0.3901,-0.0376,-0.3389,1.6829,High Risk,260.64,Industrials,Quanta Services,Construction & Engineering
+RTX,0.1948,-0.0162,-0.0983,0.3272,Low Risk,134.33,Industrials,RTX Corporation,Aerospace & Defense
+RSG,0.1571,-0.0153,-0.0827,0.3566,Low Risk,237.75,Industrials,Republic Services,Environmental & Facilities Services
+ROK,0.3072,-0.0264,-0.158,1.193,Low Risk,269.28,Industrials,Rockwell Automation,Electrical Components & Equipment
+ROL,0.2059,-0.019,-0.1151,0.3521,Low Risk,53.05,Industrials,"Rollins, Inc.",Environmental & Facilities Services
+SNA,0.2272,-0.0172,-0.1342,0.7531,Low Risk,337.45,Industrials,Snap-on,Industrial Machinery & Supplies & Components
+LUV,0.3335,-0.0347,-0.1978,0.7727,Moderate Risk,34.39,Industrials,Southwest Airlines,Passenger Airlines
+SWK,0.3209,-0.0299,-0.2754,0.8619,Moderate Risk,78.44,Industrials,Stanley Black & Decker,Industrial Machinery & Supplies & Components
+TXT,0.241,-0.0235,-0.2757,0.8425,Moderate Risk,75.17,Industrials,Textron,Aerospace & Defense
+TT,0.2485,-0.0246,-0.2032,1.0985,Moderate Risk,352.06,Industrials,Trane Technologies,Building Products
+TDG,0.2463,-0.0235,-0.1223,0.8745,Low Risk,1394.04,Industrials,TransDigm Group,Aerospace & Defense
+UBER,0.405,-0.0313,-0.3059,1.0785,High Risk,74.18,Industrials,Uber,Passenger Ground Transportation
+UNP,0.2038,-0.0192,-0.1236,0.504,Low Risk,238.03,Industrials,Union Pacific Corporation,Rail Transportation
+UAL,0.4713,-0.0414,-0.3675,1.5236,High Risk,77.87,Industrials,United Airlines Holdings,Passenger Airlines
+UPS,0.2828,-0.0247,-0.2424,0.4258,Moderate Risk,111.01,Industrials,United Parcel Service,Air Freight & Logistics
+URI,0.3562,-0.0354,-0.3222,1.578,High Risk,641.6,Industrials,United Rentals,Trading Companies & Distributors
+VLTO,0.1918,-0.0176,-0.159,0.5254,Low Risk,97.73,Industrials,Veralto,Environmental & Facilities Services
+VRSK,0.1969,-0.0148,-0.0898,0.2077,Low Risk,292.03,Industrials,Verisk Analytics,Research & Consulting Services
+GWW,0.2138,-0.0196,-0.2175,0.7189,Moderate Risk,988.19,Industrials,W. W. Grainger,Industrial Machinery & Supplies & Components
+WAB,0.2465,-0.0204,-0.1626,1.0547,Low Risk,187.69,Industrials,Wabtec,Construction Machinery & Heavy Transportation Equipment
+WM,0.1884,-0.0174,-0.1193,0.3768,Low Risk,228.93,Industrials,Waste Management,Environmental & Facilities Services
+XYL,0.2217,-0.0196,-0.2124,0.9278,Moderate Risk,123.13,Industrials,Xylem Inc.,Industrial Machinery & Supplies & Components
+ACN,0.2459,-0.0235,-0.2444,0.5681,Moderate Risk,311.16,Information Technology,Accenture,IT Consulting & Other Services
+ADBE,0.3532,-0.0281,-0.3558,1.1379,Moderate Risk,397.81,Information Technology,Adobe Inc.,Application Software
+AMD,0.4526,-0.0513,-0.4747,2.0391,High Risk,110.19,Information Technology,Advanced Micro Devices,Semiconductors
+AKAM,0.3794,-0.022,-0.3001,1.0146,Moderate Risk,81.47,Information Technology,Akamai Technologies,Internet Services & Infrastructure
+APH,0.3314,-0.0271,-0.2155,1.6855,High Risk,67.58,Information Technology,Amphenol,Electronic Components
+ADI,0.3438,-0.0329,-0.1758,1.638,High Risk,210.53,Information Technology,Analog Devices,Semiconductors
+ANSS,0.2115,-0.0213,-0.1477,1.054,Low Risk,323.34,Information Technology,Ansys,Application Software
+AAPL,0.2449,-0.0259,-0.1896,0.9634,Low Risk,221.53,Information Technology,Apple Inc.,"Technology Hardware, Storage & Peripherals"
+AMAT,0.4276,-0.0446,-0.4197,2.0871,High Risk,150.68,Information Technology,Applied Materials,Semiconductor Materials & Equipment
+ANET,0.4984,-0.0547,-0.4026,2.3319,High Risk,81.66,Information Technology,Arista Networks,Communications Equipment
+ADSK,0.2751,-0.029,-0.2339,1.2324,High Risk,271.21,Information Technology,Autodesk,Application Software
+AVGO,0.5832,-0.0485,-0.2803,2.5669,High Risk,179.27,Information Technology,Broadcom,Semiconductors
+CDNS,0.3682,-0.0362,-0.2834,1.7339,High Risk,263.41,Information Technology,Cadence Design Systems,Application Software
+CDW,0.2883,-0.03,-0.3582,0.9265,High Risk,167.33,Information Technology,CDW Corporation,Technology Distributors
+CSCO,0.1886,-0.0168,-0.0977,0.7297,Low Risk,61.8,Information Technology,Cisco,Communications Equipment
+CTSH,0.2082,-0.0213,-0.1546,0.6641,Low Risk,77.85,Information Technology,Cognizant,IT Consulting & Other Services
+GLW,0.2995,-0.0261,-0.1827,1.0764,Low Risk,47.1,Information Technology,Corning Inc.,Electronic Components
+CRWD,0.4842,-0.0396,-0.4444,1.9138,High Risk,371.41,Information Technology,CrowdStrike,Systems Software
+DELL,0.5306,-0.0513,-0.5079,1.946,High Risk,96.26,Information Technology,Dell Technologies,"Technology Hardware, Storage & Peripherals"
+ENPH,0.6091,-0.0578,-0.607,0.9045,High Risk,60.15,Information Technology,Enphase Energy,Semiconductor Materials & Equipment
+EPAM,0.4508,-0.0322,-0.384,0.8356,High Risk,176.92,Information Technology,EPAM Systems,IT Consulting & Other Services
+FFIV,0.2925,-0.0213,-0.1712,1.0725,Low Risk,272.84,Information Technology,"F5, Inc.",Communications Equipment
+FICO,0.3147,-0.0301,-0.2884,1.1593,High Risk,1887.0,Information Technology,Fair Isaac,Application Software
+FSLR,0.5479,-0.0475,-0.5799,0.971,High Risk,126.34,Information Technology,First Solar,Semiconductors
+FTNT,0.3851,-0.0272,-0.2234,0.8018,Moderate Risk,101.01,Information Technology,Fortinet,Systems Software
+IT,0.2355,-0.0217,-0.2411,1.0448,Moderate Risk,426.77,Information Technology,Gartner,IT Consulting & Other Services
+GEN,0.2771,-0.0216,-0.1657,0.689,Low Risk,27.53,Information Technology,Gen Digital,Systems Software
+GDDY,0.2788,-0.023,-0.197,0.9413,Low Risk,183.1,Information Technology,GoDaddy,Internet Services & Infrastructure
+HPE,0.4005,-0.0417,-0.3952,1.5414,High Risk,16.07,Information Technology,Hewlett Packard Enterprise,"Technology Hardware, Storage & Peripherals"
+HPQ,0.3323,-0.0318,-0.2766,0.812,High Risk,28.71,Information Technology,HP Inc.,"Technology Hardware, Storage & Peripherals"
+IBM,0.2568,-0.0176,-0.1389,0.7123,Low Risk,250.34,Information Technology,IBM,IT Consulting & Other Services
+INTC,0.5819,-0.0537,-0.5713,1.9401,High Risk,23.42,Information Technology,Intel,Semiconductors
+INTU,0.3108,-0.0252,-0.212,1.1225,Moderate Risk,614.86,Information Technology,Intuit,Application Software
+JBL,0.3611,-0.0296,-0.3051,1.4294,High Risk,143.86,Information Technology,Jabil,Electronic Manufacturing Services
+JNPR,0.1322,-0.0096,-0.1191,0.1267,Low Risk,36.12,Information Technology,Juniper Networks,Communications Equipment
+KEYS,0.3224,-0.0269,-0.2515,1.3889,High Risk,156.4,Information Technology,Keysight Technologies,Electronic Equipment & Instruments
+KLAC,0.4352,-0.0382,-0.3102,2.156,High Risk,705.54,Information Technology,KLA Corporation,Semiconductor Materials & Equipment
+LRCX,0.4527,-0.0477,-0.3592,2.1603,High Risk,76.14,Information Technology,Lam Research,Semiconductor Materials & Equipment
+MCHP,0.4173,-0.0442,-0.4771,1.7999,High Risk,52.17,Information Technology,Microchip Technology,Semiconductors
+MU,0.5596,-0.0479,-0.4497,2.3426,High Risk,92.13,Information Technology,Micron Technology,Semiconductors
+MSFT,0.2141,-0.022,-0.1852,1.1075,Low Risk,389.97,Information Technology,Microsoft,Systems Software
+MPWR,0.5686,-0.0514,-0.4079,2.6752,High Risk,600.47,Information Technology,Monolithic Power Systems,Semiconductors
+MSI,0.1927,-0.0162,-0.1821,0.6247,Low Risk,431.23,Information Technology,Motorola Solutions,Communications Equipment
+NTAP,0.3254,-0.0306,-0.3251,1.2196,High Risk,92.75,Information Technology,NetApp,"Technology Hardware, Storage & Peripherals"
+NVDA,0.5641,-0.0603,-0.2841,2.7426,High Risk,113.76,Information Technology,Nvidia,Semiconductors
+NXPI,0.3727,-0.04,-0.3056,1.678,High Risk,205.75,Information Technology,NXP Semiconductors,Semiconductors
+ON,0.4758,-0.0536,-0.4647,2.044,High Risk,45.04,Information Technology,ON Semiconductor,Semiconductors
+ORCL,0.3811,-0.0309,-0.2489,1.6459,High Risk,147.8,Information Technology,Oracle Corporation,Application Software
+PLTR,0.6752,-0.0508,-0.3871,2.6108,High Risk,92.28,Information Technology,Palantir Technologies,Internet Services & Infrastructure
+PANW,0.3199,-0.0348,-0.1731,1.3661,High Risk,184.96,Information Technology,Palo Alto Networks,Systems Software
+PTC,0.2287,-0.0233,-0.2407,0.9109,Moderate Risk,162.15,Information Technology,PTC Inc.,Application Software
+QCOM,0.3794,-0.0384,-0.3308,1.8856,High Risk,158.39,Information Technology,Qualcomm,Semiconductors
+ROP,0.1872,-0.0184,-0.1258,0.7318,Low Risk,582.71,Information Technology,Roper Technologies,Electronic Equipment & Instruments
+CRM,0.3669,-0.0288,-0.2846,1.3055,High Risk,280.99,Information Technology,Salesforce,Application Software
+STX,0.3128,-0.0323,-0.2342,1.2497,High Risk,87.63,Information Technology,Seagate Technology,"Technology Hardware, Storage & Peripherals"
+NOW,0.3732,-0.0337,-0.3303,1.435,High Risk,838.55,Information Technology,ServiceNow,Systems Software
+SWKS,0.4403,-0.0344,-0.4566,1.3737,High Risk,67.6,Information Technology,Skyworks Solutions,Semiconductors
+SMCI,1.1365,-0.1105,-0.8264,2.8832,High Risk,37.04,Information Technology,Supermicro,"Technology Hardware, Storage & Peripherals"
+SNPS,0.3666,-0.0379,-0.3102,1.9079,High Risk,449.9,Information Technology,Synopsys,Application Software
+TEL,0.216,-0.0224,-0.1153,0.9963,Low Risk,149.74,Information Technology,TE Connectivity,Electronic Manufacturing Services
+TDY,0.2304,-0.0185,-0.1556,0.6334,Low Risk,509.0,Information Technology,Teledyne Technologies,Electronic Equipment & Instruments
+TER,0.4847,-0.0439,-0.4749,2.1485,High Risk,88.01,Information Technology,Teradyne,Semiconductor Materials & Equipment
+TXN,0.3002,-0.0318,-0.2061,1.2915,High Risk,184.49,Information Technology,Texas Instruments,Semiconductors
+TRMB,0.2971,-0.0253,-0.2259,1.3173,High Risk,68.94,Information Technology,Trimble Inc.,Electronic Equipment & Instruments
+TYL,0.2461,-0.0229,-0.1443,0.6304,Low Risk,577.33,Information Technology,Tyler Technologies,Application Software
+VRSN,0.1927,-0.0183,-0.1207,0.4734,Low Risk,248.13,Information Technology,Verisign,Internet Services & Infrastructure
+WDC,0.403,-0.0425,-0.3316,1.7941,High Risk,42.62,Information Technology,Western Digital,"Technology Hardware, Storage & Peripherals"
+WDAY,0.3402,-0.0254,-0.2432,0.9718,Moderate Risk,250.79,Information Technology,"Workday, Inc.",Application Software
+ZBRA,0.2872,-0.0289,-0.3548,1.1392,Moderate Risk,288.02,Information Technology,Zebra Technologies,Electronic Equipment & Instruments
+APD,0.2428,-0.0173,-0.1509,0.3735,Low Risk,295.26,Materials,Air Products,Industrial Gases
+ALB,0.5207,-0.0573,-0.4773,1.3687,High Risk,75.72,Materials,Albemarle Corporation,Specialty Chemicals
+AMCR,0.2267,-0.0189,-0.1691,0.3938,Low Risk,9.6,Materials,Amcor,Paper & Plastic Packaging Products & Materials
+AVY,0.1932,-0.02,-0.2293,0.58,Moderate Risk,177.94,Materials,Avery Dennison,Paper & Plastic Packaging Products & Materials
+BALL,0.2414,-0.0204,-0.3001,0.5332,Moderate Risk,51.31,Materials,Ball Corporation,"Metal, Glass & Plastic Containers"
+CF,0.3111,-0.0345,-0.2237,0.3487,High Risk,76.64,Materials,CF Industries,Fertilizers & Agricultural Chemicals
+CTVA,0.2408,-0.0247,-0.1253,0.624,Low Risk,62.7,Materials,Corteva,Fertilizers & Agricultural Chemicals
+DOW,0.2351,-0.0252,-0.3751,0.5677,Moderate Risk,35.58,Materials,Dow Inc.,Commodity Chemicals
+DD,0.2254,-0.0191,-0.1844,0.781,Low Risk,76.49,Materials,DuPont,Specialty Chemicals
+EMN,0.2431,-0.0248,-0.2267,0.765,Moderate Risk,89.55,Materials,Eastman Chemical Company,Specialty Chemicals
+ECL,0.1829,-0.0148,-0.1191,0.5497,Low Risk,252.39,Materials,Ecolab,Specialty Chemicals
+FCX,0.3642,-0.0378,-0.3649,1.2336,High Risk,41.49,Materials,Freeport-McMoRan,Copper
+IFF,0.2375,-0.02,-0.2678,0.4035,Moderate Risk,77.66,Materials,International Flavors & Fragrances,Specialty Chemicals
+IP,0.3027,-0.0244,-0.1713,0.5384,Low Risk,55.41,Materials,International Paper,Paper & Plastic Packaging Products & Materials
+LIN,0.1471,-0.014,-0.1486,0.474,Low Risk,461.43,Materials,Linde plc,Industrial Gases
+LYB,0.2045,-0.0219,-0.2987,0.493,Moderate Risk,71.06,Materials,LyondellBasell,Specialty Chemicals
+MLM,0.2426,-0.0261,-0.255,0.9664,Moderate Risk,482.87,Materials,Martin Marietta Materials,Construction Materials
+MOS,0.3451,-0.036,-0.2911,0.5897,High Risk,27.12,Materials,Mosaic Company (The),Fertilizers & Agricultural Chemicals
+NEM,0.3544,-0.0321,-0.3657,0.7461,High Risk,47.39,Materials,Newmont,Gold
+NUE,0.3522,-0.0356,-0.4236,1.0445,High Risk,127.3,Materials,Nucor,Steel
+PKG,0.2178,-0.0169,-0.2241,0.6912,Moderate Risk,199.5,Materials,Packaging Corporation of America,Paper & Plastic Packaging Products & Materials
+PPG,0.2052,-0.0217,-0.2291,0.5832,Moderate Risk,111.93,Materials,PPG Industries,Specialty Chemicals
+SHW,0.2205,-0.0208,-0.174,0.7357,Low Risk,344.42,Materials,Sherwin-Williams,Specialty Chemicals
+SW,0.3758,-0.0356,-0.2375,1.1654,High Risk,45.28,Materials,Smurfit Westrock,Paper & Plastic Packaging Products & Materials
+STLD,0.3325,-0.0315,-0.2731,1.0631,High Risk,128.34,Materials,Steel Dynamics,Steel
+VMC,0.2508,-0.0248,-0.2443,1.0012,Moderate Risk,237.06,Materials,Vulcan Materials Company,Construction Materials
+ARE,0.2525,-0.0269,-0.2501,0.6719,Moderate Risk,96.13,Real Estate,Alexandria Real Estate Equities,Office REITs
+AMT,0.2629,-0.0247,-0.2741,-0.0472,Moderate Risk,210.02,Real Estate,American Tower,Telecom Tower REITs
+AVB,0.1823,-0.0188,-0.1191,0.4743,Low Risk,214.09,Real Estate,AvalonBay Communities,Multi-Family Residential REITs
+BXP,0.3044,-0.0316,-0.2775,1.0686,High Risk,68.92,Real Estate,"BXP, Inc.",Office REITs
+CPT,0.2044,-0.0188,-0.1331,0.4039,Low Risk,122.21,Real Estate,Camden Property Trust,Multi-Family Residential REITs
+CBRE,0.2853,-0.0259,-0.1722,1.0188,Low Risk,132.62,Real Estate,CBRE Group,Real Estate Services
+CSGP,0.2924,-0.0313,-0.2827,0.9102,High Risk,80.37,Real Estate,CoStar Group,Real Estate Services
+CCI,0.25,-0.0231,-0.2874,0.0237,Moderate Risk,101.09,Real Estate,Crown Castle,Telecom Tower REITs
+DLR,0.2767,-0.028,-0.2509,0.9984,Moderate Risk,149.4,Real Estate,Digital Realty,Data Center REITs
+EQIX,0.2548,-0.0235,-0.1607,0.8187,Low Risk,831.05,Real Estate,Equinix,Data Center REITs
+EQR,0.1937,-0.0193,-0.1273,0.4902,Low Risk,71.57,Real Estate,Equity Residential,Multi-Family Residential REITs
+ESS,0.2073,-0.0199,-0.1293,0.6042,Low Risk,306.23,Real Estate,Essex Property Trust,Multi-Family Residential REITs
+EXR,0.2428,-0.0259,-0.2147,0.4933,Moderate Risk,145.58,Real Estate,Extra Space Storage,Self-Storage REITs
+FRT,0.1935,-0.0226,-0.1863,0.469,Low Risk,97.51,Real Estate,Federal Realty Investment Trust,Retail REITs
+DOC,0.2164,-0.021,-0.1467,0.5371,Low Risk,20.31,Real Estate,Healthpeak Properties,Health Care REITs
+HST,0.2398,-0.0263,-0.2712,0.9985,Moderate Risk,14.81,Real Estate,Host Hotels & Resorts,Hotel & Resort REITs
+INVH,0.2068,-0.019,-0.174,0.4929,Low Risk,34.37,Real Estate,Invitation Homes,Single-Family Residential REITs
+IRM,0.2982,-0.029,-0.3498,0.7772,Moderate Risk,87.03,Real Estate,Iron Mountain,Other Specialized REITs
+KIM,0.2114,-0.0219,-0.2021,0.5255,Moderate Risk,21.21,Real Estate,Kimco Realty,Retail REITs
+MAA,0.1969,-0.019,-0.103,0.2872,Low Risk,164.5,Real Estate,Mid-America Apartment Communities,Multi-Family Residential REITs
+PLD,0.2619,-0.0276,-0.2217,0.7865,Moderate Risk,111.13,Real Estate,Prologis,Industrial REITs
+PSA,0.2279,-0.0223,-0.2008,0.3621,Moderate Risk,291.54,Real Estate,Public Storage,Self-Storage REITs
+O,0.1773,-0.0179,-0.1929,0.0955,Low Risk,56.56,Real Estate,Realty Income,Retail REITs
+REG,0.178,-0.0177,-0.0883,0.3115,Low Risk,72.83,Real Estate,Regency Centers,Retail REITs
+SBAC,0.2628,-0.0243,-0.2233,0.1194,Moderate Risk,214.7,Real Estate,SBA Communications,Telecom Tower REITs
+SPG,0.2193,-0.0203,-0.1402,0.7927,Low Risk,168.45,Real Estate,Simon Property Group,Retail REITs
+UDR,0.1851,-0.0192,-0.1322,0.4443,Low Risk,44.35,Real Estate,"UDR, Inc.",Multi-Family Residential REITs
+VTR,0.2149,-0.0174,-0.1375,0.3089,Low Risk,68.18,Real Estate,Ventas,Health Care REITs
+VICI,0.1904,-0.0179,-0.1491,0.3041,Low Risk,31.9,Real Estate,Vici Properties,Hotel & Resort REITs
+WELL,0.1925,-0.0164,-0.1114,0.3262,Low Risk,149.85,Real Estate,Welltower,Health Care REITs
+WY,0.233,-0.0219,-0.242,0.477,Moderate Risk,29.42,Real Estate,Weyerhaeuser,Timber REITs
+AES,0.4045,-0.0428,-0.5271,0.5968,High Risk,12.49,Utilities,AES Corporation,Independent Power Producers & Energy Traders
+LNT,0.178,-0.0186,-0.1095,0.0425,Low Risk,62.86,Utilities,Alliant Energy,Electric Utilities
+AEE,0.1783,-0.0163,-0.0786,0.0594,Low Risk,98.88,Utilities,Ameren,Multi-Utilities
+AEP,0.1863,-0.0178,-0.131,-0.1354,Low Risk,103.9,Utilities,American Electric Power,Electric Utilities
+AWK,0.2201,-0.0193,-0.1881,-0.0269,Low Risk,141.13,Utilities,American Water Works,Water Utilities
+ATO,0.1591,-0.0147,-0.0992,0.182,Low Risk,150.16,Utilities,Atmos Energy,Gas Utilities
+CNP,0.2021,-0.0191,-0.1814,0.2234,Low Risk,35.54,Utilities,CenterPoint Energy,Multi-Utilities
+CMS,0.1616,-0.0182,-0.0917,-0.0586,Low Risk,73.31,Utilities,CMS Energy,Multi-Utilities
+ED,0.1826,-0.0187,-0.1736,-0.2056,Low Risk,107.46,Utilities,Consolidated Edison,Multi-Utilities
+CEG,0.6435,-0.059,-0.4169,1.8509,High Risk,216.97,Utilities,Constellation Energy,Electric Utilities
+D,0.2159,-0.0216,-0.1264,-0.0742,Low Risk,53.86,Utilities,Dominion Energy,Multi-Utilities
+DTE,0.1774,-0.0212,-0.0996,0.1001,Low Risk,135.72,Utilities,DTE Energy,Multi-Utilities
+DUK,0.1669,-0.0164,-0.1159,-0.0714,Low Risk,117.11,Utilities,Duke Energy,Electric Utilities
+EIX,0.2768,-0.0235,-0.4274,0.284,Moderate Risk,57.78,Utilities,Edison International,Electric Utilities
+ETR,0.2598,-0.0165,-0.0845,0.1488,Low Risk,84.11,Utilities,Entergy,Electric Utilities
+EVRG,0.1501,-0.0158,-0.0785,0.1235,Low Risk,67.33,Utilities,Evergy,Electric Utilities
+ES,0.2199,-0.0232,-0.1724,-0.0495,Low Risk,59.94,Utilities,Eversource Energy,Electric Utilities
+EXC,0.1824,-0.0177,-0.1159,-0.066,Low Risk,44.02,Utilities,Exelon,Electric Utilities
+FE,0.1909,-0.0168,-0.1299,0.0049,Low Risk,38.48,Utilities,FirstEnergy,Electric Utilities
+NEE,0.265,-0.0256,-0.2109,0.1045,Moderate Risk,69.73,Utilities,NextEra Energy,Multi-Utilities
+NI,0.1673,-0.0145,-0.0737,0.2966,Low Risk,39.98,Utilities,NiSource,Multi-Utilities
+NRG,0.4455,-0.0459,-0.2516,1.5366,High Risk,97.37,Utilities,NRG Energy,Independent Power Producers & Energy Traders
+PCG,0.2426,-0.0233,-0.2983,0.3928,Moderate Risk,17.24,Utilities,PG&E Corporation,Multi-Utilities
+PNW,0.1741,-0.0161,-0.135,0.1613,Low Risk,92.99,Utilities,Pinnacle West Capital,Multi-Utilities
+PPL,0.1644,-0.0175,-0.0903,0.0756,Low Risk,34.6,Utilities,PPL Corporation,Electric Utilities
+PEG,0.2049,-0.022,-0.1669,0.5102,Low Risk,81.53,Utilities,Public Service Enterprise Group,Electric Utilities
+SRE,0.2869,-0.019,-0.2792,0.501,Moderate Risk,70.77,Utilities,Sempra,Multi-Utilities
+SO,0.1815,-0.0163,-0.133,-0.0751,Low Risk,89.06,Utilities,Southern Company,Electric Utilities
+VST,0.7127,-0.0595,-0.4346,2.5719,High Risk,124.01,Utilities,Vistra Corp.,Electric Utilities
+WEC,0.1706,-0.0159,-0.0953,-0.045,Low Risk,105.8,Utilities,WEC Energy Group,Electric Utilities
+XEL,0.1818,-0.0169,-0.1238,0.0084,Low Risk,68.92,Utilities,Xcel Energy,Multi-Utilities
