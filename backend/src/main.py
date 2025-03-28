@@ -1,5 +1,6 @@
 import yfinance as yf
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import create_engine, Column, Integer, String, Numeric, Date, BigInteger
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
@@ -69,6 +70,7 @@ def fetch_and_store_stock_data(symbol: str):
 # API endpoint to receive multiple stock symbols and store data
 @app.post("/api/store-stocks")
 async def store_stocks(symbols: List[str]):
+    print("Received ticker symbols:", symbols)
     if not symbols:
         raise HTTPException(status_code=400, detail="A list of stock symbols is required!")
     
@@ -81,7 +83,7 @@ async def store_stocks(symbols: List[str]):
             results.append({"symbol": symbol, "error": f"No data found for {symbol}"})
         else:
             results.append({"symbol": symbol, "message": result['message']})
-    
+    print("Storing results:", results)
     return {"results": results}
 
 # API endpoint to clear the database
@@ -96,3 +98,11 @@ async def clear_stocks():
     session.close()
 
     return {"message": "All stock data has been cleared from the database!"}
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],  # Frontend origin
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
