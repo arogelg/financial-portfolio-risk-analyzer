@@ -5,7 +5,6 @@ function TickerInputPage() {
   const [ticker, setTicker] = useState('');
   const navigate = useNavigate();
 
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     const trimmedTicker = ticker.trim().toUpperCase();
@@ -17,9 +16,9 @@ function TickerInputPage() {
           body: JSON.stringify([trimmedTicker]) 
         });
         const data = await response.json();
-        
+
         if (response.ok) {
-          const analysis = data.results[0].analysis; // backend returns {results: [{symbol, message, analysis}]}
+          const analysis = data.results[0].analysis;
           navigate(`/results/${trimmedTicker}`, { state: { analysis } });
         } else {
           console.error('Error storing ticker:', data);
@@ -33,15 +32,17 @@ function TickerInputPage() {
   return (
     <div style={styles.container}>
       <div style={styles.card}>
-        <h1 style={styles.heading}>Financial Portfolio Risk Analyzer</h1>
+      <h1 style={styles.heading}>Financial Portfolio Risk Analyzer</h1>
+      <p style={styles.subheading}>Get a quick risk snapshot of any stock.</p>
         <form onSubmit={handleSubmit}>
           <input 
             type="text" 
-            placeholder="Enter Ticker (e.g. AAPL)" 
+            placeholder="Enter Ticker" 
             value={ticker} 
             onChange={(e) => setTicker(e.target.value)}
             style={styles.input}
           />
+          <small style={styles.helper}>Example: AAPL, TSLA, MSFT</small>
           <button type="submit" style={styles.button}>Analyze</button>
         </form>
       </div>
@@ -55,40 +56,54 @@ const styles = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    background: '#f0f2f5',
+    background: '#1E2A38',
   },
   card: {
-    background: '#fff',
-    padding: '40px',
-    borderRadius: '8px',
-    boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
+    background: '#2a3c4d',
+    padding: '70px',
+    borderRadius: '16px',
+    boxShadow: '0 8px 20px rgba(0,0,0,0.3)',
     textAlign: 'center',
-    maxWidth: '400px',
+    maxWidth: '500px',
     width: '100%',
   },
   heading: {
+    marginBottom: '32px',
+    fontSize: '30px',
+    color: '#C6CDFF',
+    fontWeight: '700',
+  },
+  subheading: {
+    fontSize: '16px',
+    color: '#C6CDFF',
     marginBottom: '20px',
-    fontSize: '24px',
-    color: '#333',
   },
   input: {
-    width: 'calc(100% - 20px)',
-    padding: '10px',
+    width: '100%',
+    padding: '12px',
     marginBottom: '20px',
-    borderRadius: '4px',
+    borderRadius: '8px',
     border: '1px solid #ccc',
     fontSize: '16px',
   },
   button: {
     width: '100%',
-    padding: '10px',
-    borderRadius: '4px',
+    padding: '12px',
+    borderRadius: '8px',
     border: 'none',
-    background: '#1890ff',
+    background: '#248BD6',
     color: '#fff',
-    fontSize: '16px',
+    fontSize: '18px',
+    fontWeight: '600',
     cursor: 'pointer',
+    transition: 'background 0.3s ease',
   },
+  helper: {
+    color: '#C6CDFF',
+    fontSize: '14px',
+    display: 'block',
+    marginBottom: '15px',
+  }
 };
 
 export default TickerInputPage;

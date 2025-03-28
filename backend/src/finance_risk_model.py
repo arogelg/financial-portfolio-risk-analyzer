@@ -28,7 +28,7 @@ from typing import Dict
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
-from sqlalchemy.orm import Session as DBSession
+from .database import Stock, Session
 import pandas as pd
 
 # ============================================
@@ -55,7 +55,6 @@ def fetch_stock_data_yf(ticker: str, period: str = "6mo") -> pd.DataFrame:
     '''
 
 def fetch_stock_data_from_db(db: Session, ticker: str, days: int = 180) -> pd.DataFrame:
-    from .main import Stock, Session
     """
     Pull historical stock data from PostgreSQL database for a given ticker.
     Returns a clean pandas DataFrame.
@@ -82,7 +81,6 @@ def fetch_stock_data_from_db(db: Session, ticker: str, days: int = 180) -> pd.Da
         'volume': int(r.volume)
     } for r in records]
 
-    # Reverse to chronological order (since we ordered desc)
     return pd.DataFrame(data[::-1])
 
 # ============================================
@@ -100,9 +98,9 @@ def generate_features(df: pd.DataFrame) -> pd.DataFrame:
     """
     Generate risk features including VaR, volatility, and momentum.
     """
-    df['returns'] = df['Close'].pct_change()
+    df['returns'] = df['close'].pct_change()
     df['volatility_5d'] = df['returns'].rolling(5).std()
-    df['momentum_5d'] = df['Close'] / df['Close'].shift(5) - 1
+    df['momentum_5d'] = df['close'] / df['close'].shift(5) - 1
     df['VaR_95'] = df['returns'].rolling(20).apply(calculate_var)  # 20-day rolling VaR
 
     # Define risk as "1" if next day return < VaR threshold (i.e., worse than expected loss)
@@ -165,7 +163,7 @@ def analyze_stock_risk_db(ticker: str) -> Dict:
     Pulls stock data from the database, runs ML model, returns risk classification.
     """
     try:
-        db = DBSession()
+        db = Session()
         df = fetch_stock_data_from_db(db, ticker)
         df = generate_features(df)
         results = train_and_evaluate_model(df)

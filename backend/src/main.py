@@ -6,39 +6,18 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from typing import List
 from .finance_risk_model import analyze_stock_risk_db
+from .database import Stock, Session, Base, engine  # Use what you've already defined
 
 # Initialize FastAPI app
 app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  
+    allow_origins=["http://localhost:3000"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-# PostgreSQL database connection string
-DATABASE_URL = "postgresql://arogelg:7150Vavagvba@db:5432/risk_analyzer_DB"
-
-# SQLAlchemy setup
-Base = declarative_base()
-engine = create_engine(DATABASE_URL)
-Session = sessionmaker(bind=engine)
-
-# Define the Stock model
-class Stock(Base):
-    __tablename__ = 'stocks'
-    
-    id = Column(Integer, primary_key=True)
-    symbol = Column(String(10), nullable=False)
-    name = Column(String(100))
-    date = Column(Date)
-    open_price = Column(Numeric)
-    high_price = Column(Numeric)
-    low_price = Column(Numeric)
-    close_price = Column(Numeric)
-    volume = Column(BigInteger)
 
 # Create the table if it doesn't exist
 Base.metadata.create_all(engine)
@@ -108,4 +87,20 @@ async def clear_stocks():
     session.close()
 
     return {"message": "All stock data has been cleared from the database!"}
+
+@app.get("/api/history/{ticker}")
+def get_price_history(ticker: str):
+    db = Session()
+    try:
+        records = (
+            db.query(Stock)
+            .filter(Stock.symbol == ticker)
+            .order_by(Stock.date.desc())
+            .limit(30)
+            .all()
+        )
+        history = [{"date": r.date.strftime("%Y-%m-%d"), "close": float(r.close_price)} for r in reversed(records)]
+        return history
+    finally:
+        db.close()
 
