@@ -5,9 +5,18 @@ from sqlalchemy import create_engine, Column, Integer, String, Numeric, Date, Bi
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from typing import List
+from .finance_risk_model import analyze_stock_risk_db
 
 # Initialize FastAPI app
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],  
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # PostgreSQL database connection string
 DATABASE_URL = "postgresql://arogelg:7150Vavagvba@db:5432/risk_analyzer_DB"
@@ -75,14 +84,15 @@ async def store_stocks(symbols: List[str]):
         raise HTTPException(status_code=400, detail="A list of stock symbols is required!")
     
     results = []
-    
-    # Fetch and store data for each symbol
+
     for symbol in symbols:
         result = fetch_and_store_stock_data(symbol)
         if result is None:
             results.append({"symbol": symbol, "error": f"No data found for {symbol}"})
         else:
-            results.append({"symbol": symbol, "message": result['message']})
+            analysis = analyze_stock_risk_db(symbol)
+            results.append({"symbol": symbol, "message": result['message'], "analysis": analysis})
+
     print("Storing results:", results)
     return {"results": results}
 
@@ -99,10 +109,3 @@ async def clear_stocks():
 
     return {"message": "All stock data has been cleared from the database!"}
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Frontend origin
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)

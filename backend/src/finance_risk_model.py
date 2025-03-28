@@ -28,7 +28,6 @@ from typing import Dict
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
-from main import Stock, Session
 from sqlalchemy.orm import Session as DBSession
 import pandas as pd
 
@@ -56,6 +55,7 @@ def fetch_stock_data_yf(ticker: str, period: str = "6mo") -> pd.DataFrame:
     '''
 
 def fetch_stock_data_from_db(db: Session, ticker: str, days: int = 180) -> pd.DataFrame:
+    from .main import Stock, Session
     """
     Pull historical stock data from PostgreSQL database for a given ticker.
     Returns a clean pandas DataFrame.

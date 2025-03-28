@@ -19,7 +19,8 @@ function TickerInputPage() {
         const data = await response.json();
         
         if (response.ok) {
-          navigate(`/results/${trimmedTicker}`);
+          const analysis = data.results[0].analysis; // backend returns {results: [{symbol, message, analysis}]}
+          navigate(`/results/${trimmedTicker}`, { state: { analysis } });
         } else {
           console.error('Error storing ticker:', data);
         }
