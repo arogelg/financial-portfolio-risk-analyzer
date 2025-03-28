@@ -112,7 +112,7 @@ def generate_features(df: pd.DataFrame) -> pd.DataFrame:
 
 def map_risk_class(pred: int, confidence: float) -> str:
     """
-    Translate model prediction into a human-readable risk label.
+    Translate model prediction into a string risk label.
     """
     if pred == 0 and confidence >= 0.8:
         return "Low Risk – Stable outlook"
