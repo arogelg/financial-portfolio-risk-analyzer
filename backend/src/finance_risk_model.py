@@ -183,4 +183,15 @@ def analyze_stock_risk_db(ticker: str) -> Dict:
     except Exception as e:
         return {"ticker": ticker, "error": str(e)}
 
+
+#Example output:
 #analyze_stock_risk('AAPL')
+"""
+{'model_accuracy': 0.871,
+ 'predicted_risk_level': 'Moderate Risk – Some volatility expected',
+ 'confidence_score': 0.68,
+ 'ticker': 'AAPL',
+ 'latest_close': 223.85,
+ 'latest_VaR_95': -0.0344,
+ 'latest_volatility': 0.0111}
+ """
